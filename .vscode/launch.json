@@ -14,7 +14,7 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole":false,
             "MIMode": "gdb",
             "miDebuggerPath": "E:\\1\\c++compiler\\bin\\gdb.exe",
             "setupCommands": [

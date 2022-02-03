@@ -34,6 +34,7 @@ public:
         for(int i:arr)
         insert(i);
     }
+    // 递归建堆的方法，另有一种通过叶子节点数量为（n-1)/2,然后将每个内点进行向下渗透即可。
     void allPercolateDown(int index)
     {
         if (2 * index > maxsize)
@@ -94,7 +95,7 @@ public:
 };
 int main()
 {
-    vector<int> a = {10,12,1,14,6,5,8,15,3,9,7,4,11,13,2};
+    vector<int> a = {55,63,44,38,75,80,31,56};
     heap Heap(a);
     // Heap.build(a);
     Heap.printArr();
